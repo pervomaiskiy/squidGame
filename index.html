@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>land3</title>
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+</head>
+    <body>
+        <div class="wrapper">
+
+                <div class="leftSide">
+                    <div class="leftSide__wrapper">
+                        <img src="./img/gameLogo.png" alt="quid Game" class="gameLogo">
+                        <div class="textWrapper">
+                        <h1 class="title">Survive the Squid.  Win Big on rrrrrr.</h1>
+                        <span class="subTitle">The world of Squid Game is here — and the stakes have never been higher.</span>
+                        <span class="subtext">Let the games begin.</span>
+                        </div>
+                        <a href="http://www.chembunal-lootments.icu/" class="button">Play Now</a>
+                    </div>
+                </div>
+            <picture class="mainImgWrapp">
+                <source srcset="./img/mainImg-web.png"
+                        media="(min-width: 480px)"
+                        class="mainImg">
+                <img src="./img/mainImg-mob.png" alt=""  class="mainImg"/>
+            </picture>
+        </div>
+
+        <script>
+            const images = document.querySelectorAll('img');
+            images.forEach(item => {
+                item.setAttribute('draggable', false);
+            });
+        </script>
+
+    </body>
+</html>
+
+
